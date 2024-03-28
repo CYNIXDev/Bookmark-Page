@@ -4,7 +4,7 @@ function Card(props) {
     return (
         <div className={`max-w-[275px] w-full h-[375px] rounded-md grid grid-rows-4 shadow-lg ${props.cusStyle}`}>
             <div className='flex flex-col items-center justify-center row-span-3'>
-                <img className='py-3 ' src={props.img} alt="" />
+                {<img className='py-3 ' src={props.img} alt="" />}
                 <h3 className='py-3 text-VeryDarkBlue font-bold text-[20px]'>{props.browser}</h3>
                 <p>{props.minVer}</p>
             </div>

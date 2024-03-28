@@ -62,9 +62,9 @@ const data = {
         },
     ],
     card: [
-        { id: 1, img: './src/assets/images/logo-chrome.svg', browser: 'Add to Chrome', mimVer: 'Minimum version 62', link: '' },
-        { id: 2, img: './src/assets/images/logo-firefox.svg', browser: 'Add to Firefox', mimVer: 'Minimum version 55', link: '' },
-        { id: 3, img: './src/assets/images/logo-opera.svg', browser: 'Add to Opera', mimVer: 'Minimum version 46', link: '' },
+        { id: 1, img: '/src/assets/images/logo-chrome.svg', browser: 'Add to Chrome', mimVer: 'Minimum version 62', link: '' },
+        { id: 2, img: '/src/assets/images/logo-firefox.svg', browser: 'Add to Firefox', mimVer: 'Minimum version 55', link: '' },
+        { id: 3, img: '/src/assets/images/logo-opera.svg', browser: 'Add to Opera', mimVer: 'Minimum version 46', link: '' },
     ],
     faqs: [
         { id: 1, fq: 'What is Bookmark?', answer: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce tincidunt justo eget ultricies fringilla. Phasellus blandit ipsum quis quam ornare mattis.' },
