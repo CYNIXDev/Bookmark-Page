@@ -1,4 +1,9 @@
 import chrome from '../assets/images/logo-chrome.svg'
+import opera from '../assets/images/logo-opera.svg'
+import firefox from '../assets/images/logo-firefox.svg'
+import tab1 from '../assets/images/illustration-features-tab-1.svg'
+import tab2 from '../assets/images/illustration-features-tab-2.svg'
+import tab3 from '../assets/images/illustration-features-tab-3.svg'
 
 const data = {
     contents: {
@@ -44,7 +49,7 @@ const data = {
             contentTitle: 'Bookmark in one click',
             content: 'Organize your bookmarks however you like. Our simple drag-and-drop interface gives you complete control over how you manage your favourite sites.',
             link: '',
-            img: '../src/assets/images/illustration-features-tab-1.svg',
+            img: tab1,
         },
         {
             id: 2,
@@ -52,7 +57,7 @@ const data = {
             contentTitle: 'BIntelligent search',
             content: 'Our powerful search feature will help you find saved sites in no time at all. No need to trawl through all of your bookmarks.',
             link: '',
-            img: '../src/assets/images/illustration-features-tab-2.svg',
+            img: tab2,
         },
         {
             id: 3,
@@ -60,13 +65,13 @@ const data = {
             contentTitle: 'Share your bookmarks',
             content: 'Easily share your bookmarks and collections with others. Create a shareable link that you can send at the click of a button.',
             link: '',
-            img: '../src/assets/images/illustration-features-tab-3.svg',
+            img: tab3,
         },
     ],
     card: [
-        { id: 1, img: '/src/assets/images/logo-chrome.svg', browser: 'Add to Chrome', mimVer: 'Minimum version 62', link: '' },
-        { id: 2, img: '/src/assets/images/logo-firefox.svg', browser: 'Add to Firefox', mimVer: 'Minimum version 55', link: '' },
-        { id: 3, img: chrome, browser: 'Add to Opera', mimVer: 'Minimum version 46', link: '' },
+        { id: 1, img: chrome, browser: 'Add to Chrome', mimVer: 'Minimum version 62', link: '' },
+        { id: 2, img: firefox, browser: 'Add to Firefox', mimVer: 'Minimum version 55', link: '' },
+        { id: 3, img: opera, browser: 'Add to Opera', mimVer: 'Minimum version 46', link: '' },
     ],
     faqs: [
         { id: 1, fq: 'What is Bookmark?', answer: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce tincidunt justo eget ultricies fringilla. Phasellus blandit ipsum quis quam ornare mattis.' },
